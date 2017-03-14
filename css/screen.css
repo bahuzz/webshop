@@ -30,6 +30,8 @@ html, body { height: 100%; }
 
 .pluto-medium, h3, .breadcrumbs, .lc-order-now a { font-family: "PlutoCondMedium", arial, sans-serif; }
 
+.pluto-heavy, .lc-ship { font-family: "PlutoHeavy", arial, sans-serif; }
+
 body { font-size: 12px; background: #FFF; }
 
 .main-container { max-width: 1170px; margin: auto; position: relative; }
@@ -45,6 +47,10 @@ src: url("../fonts/PlutoSansW01-CondLight.eot?#iefix") format("embedded-opentype
 @font-face { font-family: 'PlutoCondMedium'; src: url("../fonts/PlutoSansW01-CondMedium.eot");
   /* IE9 Compat Modes */
 src: url("../fonts/PlutoSansW01-CondMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/PlutoSansW01-CondMedium.woff2") format("woff2"), url("../fonts/PlutoSansW01-CondMedium.woff") format("woff"), url("../fonts/PlutoSansW01-CondMedium.ttf") format("truetype"), url("../fonts/PlutoSansW01-CondMedium.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+@font-face { font-family: 'PlutoHeavy'; src: url("../fonts/PlutoSansW01-Heavy.eot");
+  /* IE9 Compat Modes */
+src: url("../fonts/PlutoSansW01-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/PlutoSansW01-Heavy.woff2") format("woff2"), url("../fonts/PlutoSansW01-Heavy.woff") format("woff"), url("../fonts/PlutoSansW01-Heavy.ttf") format("truetype"), url("../fonts/PlutoSansW01-Heavy.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 h1 { font-size: 44px; padding-bottom: 20px; }
 

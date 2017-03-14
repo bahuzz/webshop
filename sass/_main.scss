@@ -156,6 +156,7 @@ a {
 	float: right;
 	font-size: 13px;
 	text-transform: uppercase;
+	@extend .pluto-heavy;
 }
 .lc-ul {
 	margin-bottom: 55px;

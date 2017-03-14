@@ -25,3 +25,12 @@
        url('../fonts/PlutoSansW01-CondMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/PlutoSansW01-CondMedium.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
+@font-face {
+  font-family: 'PlutoHeavy';
+  src: url('../fonts/PlutoSansW01-Heavy.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PlutoSansW01-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PlutoSansW01-Heavy.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PlutoSansW01-Heavy.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PlutoSansW01-Heavy.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PlutoSansW01-Heavy.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
