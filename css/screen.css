@@ -24,11 +24,11 @@ input, textarea { outline: none; }
 
 html, body { height: 100%; }
 
-.cavorting, h1, h2, h3, .topmenu { font-family: "Cavorting", arial, sans-serif; }
+.cavorting, h1, h2, .topmenu { font-family: "Cavorting", arial, sans-serif; }
 
 .pluto, body { font-family: "PlutoCondLight", arial, sans-serif; }
 
-.pluto-medium, .breadcrumbs { font-family: "PlutoCondMedium", arial, sans-serif; }
+.pluto-medium, h3, .breadcrumbs, .lc-order-now a { font-family: "PlutoCondMedium", arial, sans-serif; }
 
 body { font-size: 12px; background: #FFF; }
 
@@ -50,7 +50,7 @@ h1 { font-size: 44px; padding-bottom: 20px; }
 
 h2 { font-size: 36px; padding-bottom: 20px; }
 
-h3 { font-size: 16px; margin-bottom: 10px; }
+h3 { font-size: 12px; margin-bottom: 10px; }
 
 .tar { text-align: right; }
 
@@ -99,9 +99,20 @@ a:hover { text-decoration: none; }
 
 .lc-ship { float: right; font-size: 13px; text-transform: uppercase; }
 
-.lc-ul { margin-bottom: 40px; }
+.lc-ul { margin-bottom: 55px; }
 
 .left-col-certif { margin-bottom: 40px; }
 
 .lc-order-now a { color: #8C8C8C; }
 .lc-order-now i { margin-right: 10px; }
+
+.page-content { margin-bottom: 30px; }
+
+.lc-image-options { margin-bottom: 25px; }
+.lc-image-options a { color: #8C8C8C; }
+.lc-image-options a i { margin-right: 10px; }
+
+.lc-price { font-size: 21px; color: #000; float: right; position: relative; top: -5px; }
+
+.lc-order-now { text-align: right; font-size: 16px; }
+.lc-order-now a { color: #86BAB5; }
