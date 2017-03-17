@@ -56,7 +56,7 @@ h1 { font-size: 44px; padding-bottom: 20px; }
 
 h2 { font-size: 36px; padding-bottom: 20px; }
 
-h3 { font-size: 12px; margin-bottom: 10px; }
+h3 { margin-bottom: 10px; }
 
 .tar { text-align: right; }
 
@@ -124,3 +124,6 @@ a:hover { text-decoration: none; }
 .lc-order-now a { color: #86BAB5; }
 
 .normal-text { line-height: 1.6em; }
+
+@media (max-width: 767px) { .text-col { -webkit-column-width: 100%; -moz-column-width: 100%; column-width: 100%; -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; -webkit-column-gap: 30px; -moz-column-gap: 30px; column-gap: 30px; text-align: justify; line-height: 1.4em; }
+  .text-col p { margin-bottom: 20px; } }
