@@ -34,3 +34,21 @@
        url('../fonts/PlutoSansW01-Heavy.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/PlutoSansW01-Heavy.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
+@font-face {
+  font-family: 'RequiemText-HTF-Roman';
+  src: url('../fonts/RequiemText-HTF-Roman.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/RequiemText-HTF-Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/RequiemText-HTF-Roman.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/RequiemText-HTF-Roman.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/RequiemText-HTF-Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/RequiemText-HTF-Roman.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Bazar';
+  src: url('../fonts/Bazar.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Bazar.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Bazar.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Bazar.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Bazar.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Bazar.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

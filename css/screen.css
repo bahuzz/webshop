@@ -32,6 +32,10 @@ html, body { height: 100%; }
 
 .pluto-heavy, .lc-ship { font-family: "PlutoHeavy", arial, sans-serif; }
 
+.requiem, .shop_3 h1, h2, .shop_3 .topmenu { font-family: "RequiemText-HTF-Roman", arial, sans-serif; }
+
+.bazar, .shop_1 h1, h2, .shop_1 .topmenu { font-family: "Bazar", arial, sans-serif; }
+
 body { font-size: 14px; background: #FFF; }
 
 .main-container { max-width: 1170px; margin: auto; position: relative; }
@@ -52,6 +56,18 @@ src: url("../fonts/PlutoSansW01-CondMedium.eot?#iefix") format("embedded-opentyp
   /* IE9 Compat Modes */
 src: url("../fonts/PlutoSansW01-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/PlutoSansW01-Heavy.woff2") format("woff2"), url("../fonts/PlutoSansW01-Heavy.woff") format("woff"), url("../fonts/PlutoSansW01-Heavy.ttf") format("truetype"), url("../fonts/PlutoSansW01-Heavy.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
+@font-face { font-family: 'RequiemText-HTF-Roman'; src: url("../fonts/RequiemText-HTF-Roman.eot");
+  /* IE9 Compat Modes */
+src: url("../fonts/RequiemText-HTF-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/RequiemText-HTF-Roman.woff2") format("woff2"), url("../fonts/RequiemText-HTF-Roman.woff") format("woff"), url("../fonts/RequiemText-HTF-Roman.ttf") format("truetype"), url("../fonts/RequiemText-HTF-Roman.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+@font-face { font-family: 'Bazar'; src: url("../fonts/Bazar.eot");
+  /* IE9 Compat Modes */
+src: url("../fonts/Bazar.eot?#iefix") format("embedded-opentype"), url("../fonts/Bazar.woff2") format("woff2"), url("../fonts/Bazar.woff") format("woff"), url("../fonts/Bazar.ttf") format("truetype"), url("../fonts/Bazar.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+.shop_1 h1, h2 { text-transform: uppercase; font-size: 34px; }
+
+.shop_3 h1, h2 { font-size: 54px; }
+
 h1 { font-size: 44px; padding-bottom: 20px; }
 
 h2 { font-size: 36px; padding-bottom: 20px; }
@@ -79,6 +95,10 @@ a:hover { text-decoration: none; }
 .topmenu a { color: #000; padding: 6px 30px; display: inline-block; }
 .topmenu a:hover { color: #86BAB5; }
 
+.shop_1 .topmenu { text-transform: uppercase; font-size: 22px; }
+
+.shop_3 .topmenu { text-transform: uppercase; font-size: 20px; }
+
 .top-container { padding-top: 20px; border-bottom: 2px dashed #484848; padding-bottom: 10px; margin-bottom: 30px; }
 
 .topmenu-right { float: right; }
@@ -93,6 +113,8 @@ a:hover { text-decoration: none; }
 .left-col-top { padding-top: 45px; padding-bottom: 55px; }
 .left-col-top .social { float: right; position: relative; top: -5px; }
 .left-col-top .social a { color: #86BAB5; font-size: 16px; margin-left: 5px; }
+
+.shop_1 .left-col-top .social a { color: #EC8631; }
 
 .reference { color: #555; float: left; }
 .reference span { color: #8C8C8C; }

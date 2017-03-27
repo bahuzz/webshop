@@ -2,6 +2,15 @@
 h1,h2 {
 	@extend .cavorting;
 }
+.shop_1 h1,h2 {
+	@extend .bazar;
+	text-transform: uppercase;
+	font-size: 34px;
+}
+.shop_3 h1,h2 {
+	@extend .requiem;
+	font-size: 54px;
+}
 h1 {
 	font-size: 44px;
 	padding-bottom: 20px;
@@ -81,6 +90,16 @@ a {
 		}
 	}
 }
+.shop_1 .topmenu {
+	@extend .bazar;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+.shop_3 .topmenu {
+	@extend .requiem;
+	text-transform: uppercase;
+	font-size: 20px;
+}
 .top-container {
 	padding-top: 20px;
 	border-bottom: 2px dashed #484848;
@@ -125,6 +144,9 @@ a {
 		}
 	}
 }
+.shop_1 .left-col-top .social a {
+	color: #EC8631;
+} 
 .reference {
 	color: #555;
 	float: left;
